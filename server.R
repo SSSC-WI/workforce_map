@@ -19,7 +19,7 @@ function(input, output, session) {
   output$map <- renderLeaflet({
     leaflet() %>%
       addTiles() %>%
-      setView(lng = -93.85, lat = 37.45, zoom = 4)
+      setView(lng = -1, lat = 57, zoom = 6)
   })
 
   # A reactive expression that returns the set of zips that are
